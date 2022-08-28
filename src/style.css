@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+    background: #F55A5A;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.navbar > img {
+    margin-right: 5px;
+}
+
+.navbar > p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+}
+
+.card-container {
+    width: 800px;
+    margin: auto;
+    position: relative;
+    top: 0px;
+    height: 50vh;
+}
+
+.card {
+    width: 650px;
+    height: 250px;
+    background: #fff;
+    position: absolute;
+    top: 100px;
+    left: 75px;
+    display: flex;
+    
+}
+
+
+.card-image {
+    width: 200px;
+    height: 100%;
+    border-radius: 5px;
+    
+}
+
+.flex {
+    display: flex;
+}
+
+.cardtext-area {
+    position: absolute;
+    top: 30px;
+    left: 230px;
+    color: #fff;
+}
+
+.icon {
+    width: 12px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.locate {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+
+    color: #2B283A;
+}
+
+.link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.24px;
+    line-height: 12px;
+    position: absolute;
+    top: 5px;
+    left: 120px;
+    text-decoration-line: underline;
+    color: #918E9B;
+    width: 150px;
+}
+
+.alpha-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.8rem;
+    line-height: 30px;
+    color: #2B283A;
+    width: 500px;
+    position: absolute;
+    top: 40px;
+
+}
+
+.duration {
+    position: absolute;
+    top: 100px;
+    width: 319px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12.24px;
+    line-height: 12px;
+
+    color: #2B283A;
+}
+
+.description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.24px;
+    line-height: 150%;
+    color: #2B283A;
+    position: absolute;
+    top: 130px;
+    width: 396px;
+}
